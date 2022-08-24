@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <style>
+            body{
+    margin: 0;
+    padding: 0;
+                height: auto;
+    font-family: sans-serif;
+    background-image: url("admin2.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.login-2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 30px;
+    background-color: rgba(0,0,128,.8); 
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.login-2 h1{
+    font-size: 30px;
+    margin: 0 0 30px;
+    padding: 0;
+    color: deeppink;
+    text-align: center;
+}
+.login-2 .inputuser{
+    position: relative;
+}
+ .login-2 .inputuser input{
+width: 100%;
+    padding: 10px 0;
+    font-size:16px; 
+     background-color: black;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+.login-2 .inputuser label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size:16px; 
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+    
+}
+.login-2 .inputuser input:focus~label,
+.login-2 .inputuser input:valid~label{
+    top: -18px;
+    left: 0;
+    color: aqua;
+    font-size:12px; 
+}
+.login-2 input[type="submit"]
+{
+    font-size: 15px;
+    border: none;
+    outline:none;
+    color: white;
+    background: lime;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+}
+        </style>
+
+    </head>
+    <body>
+        <div class="login-2"><h1>Admin Sign Up</h1>
+        <form action="Admin.php" method="post">
+            <div class="inputuser">
+                <input type="text" name="cn" required=""><label>Name</label>
+            </div>
+            <div class="inputuser">
+                <input type="text" name="cphone" required=""><label>Phone Number</label>
+            </div>
+            <div class="inputuser">
+                <input type="Email" name="cemail" required=""><label>Email</label>
+            </div>
+            <div class="inputuser">
+                <input type="text" name="Ali" required=""><label>Adddress</label>
+            </div>
+             <div class="inputuser">
+                <input type="text" name="city" required=""><label>City</label>
+            </div>
+             <div class="inputuser">
+                <input type="text" name="Pincode" required=""><label>Pincode</label>
+            </div>
+             <div class="inputuser">
+                <input type="text" name="shop" required=""><label>Shop Name</label>
+            </div>
+             <div class="inputuser">
+                <input type="text" name="userid" required=""><label>User_ID</label>
+            </div>
+            <div class="inputuser">
+                <input type="Password" name="cpassword" required="" ><label>Password</label>
+            </div>
+            <input type="submit" name="" value="Sign in" Class="btnlogin">
+        </form>
+        </div>    
+    </body>
+</html>

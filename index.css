@@ -1,0 +1,364 @@
+body{
+     margin: 0;
+    padding: 0;
+                height: auto;
+    font-family: sans-serif;
+    background-image: url("mobile-technology.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.body1{
+    opacity: 5;
+    padding: 0px 0;
+    background-color: #2874f0;
+    color: #fff;
+    width: 100%;
+    z-index: 9999;
+}
+img{
+    width: 250px;
+    height: 150px;
+}
+.col{
+    margin:auto;
+    margin-top: -130px;
+    margin-left: 500px;
+}
+.col-ha-1{
+   margin: auto;
+    width: 550px;
+}
+#Har{
+      color: aqua;
+      font-size: 40px;
+    animation: changecolour 5s infinite ease;
+}
+@keyframes changecolour{
+    20%{
+        color: blue;
+    }
+    40%{
+        color: red;
+    }
+    60%{
+        color: chocolate;
+    }
+    80%{
+        color: green;
+    }
+    100%{
+        color: black;
+    }
+}
+.col-1{
+    
+        margin-top: 50px;
+}
+
+.Dis{     
+             
+             height: 250px;
+             margin: 0 auto;
+             padding: 0;
+    
+          }
+.Dis-1{
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 250px;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+ .Dis ul ul{
+           display: none;
+        }
+         .Dis ul li:hover > ul
+         {
+             display: block;
+         }
+.col li{
+    float: left;
+    
+}
+.col-1 li{
+    margin-left: -40px;
+}
+li{
+    font-size: 20px;
+    list-style: none;
+}
+.Dis ul li a{
+             background: rgba(0,0,255,0.4);
+             width: 170px;
+             border: 1px solid #fff;
+             line-height: 50px; 
+             text-align: center;
+             color: #fff;
+             float: left;
+             font-size: 14px;
+             position: relative;
+         }
+.page-title,h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: purple;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+}
+.col-1{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+}
+.border-size{
+    width: 150px;
+    height: 150px;
+    border: solid 3px gray;
+    border-radius: 20px;
+    position: absolute;
+    background-color: white;
+}
+.mi-1{
+    width:100px;
+    height: 100px;
+    margin: 20px;
+}
+.border-size-2{
+    width: 150px;
+    height: 150px;
+    border: solid 3px gray;
+    border-radius: 20px;
+    margin-left: 220px;
+     background-color: white;
+}
+.samsung-2{
+    width:100px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left:25px;
+}
+.border-size-3{
+    width: 150px;
+    height: 150px;
+    border: solid 3px gray;
+    border-radius: 20px;
+    margin-left: 440px;
+    margin-top: -155px;
+     background-color: white;
+}
+.Honar{
+    width:120px;
+    height: 150px;
+    margin-left:20px;
+}
+.border-size-4{
+    width: 150px;
+    height: 150px;
+    border: solid 3px gray;
+    border-radius: 20px;
+    margin-left: 660px;
+    margin-top: -155px;
+     background-color: white;
+}
+.Motorola{
+    width:100px;
+    height: 100px;
+    margin-left:22px;
+    margin-top: 20px;
+}
+.border-size-5{
+    width: 150px;
+    height: 150px;
+    border: solid 3px gray;
+    border-radius: 20px;
+    margin-left: 880px;
+     background-color: white;
+    margin-top: -155px;
+}
+.Oneplus{
+    width:110px;
+    height: 100px;
+    margin-left:22px;
+    margin-top: 20px;
+}
+.border-size-6{
+    width: 150px;
+    height: 150px;
+    border: solid 3px gray;
+    border-radius: 20px;
+    margin-left: 1100px;
+    margin-top: -155px;
+     background-color: white;
+}
+.Realme{
+      width:110px;
+    height: 100px;
+    margin-left:22px;
+    margin-top: 20px;
+}
+.border-size-7{
+    width: 150px;
+    height: 150px;
+    border: solid 3px gray;
+    border-radius: 20px;
+    margin-left: 1320px;
+    margin-top: -155px;
+     background-color: white;
+}
+.Apple{
+      width:110px;
+    height: 100px;
+    margin-left:22px;
+    margin-top: 20px;
+}
+.border-size-8{
+    width: 150px;
+    height: 150px;
+    border: solid 3px gray;
+    border-radius: 20px;
+    margin-left: 108px;
+    margin-top: 20px;
+     background-color: white;
+}
+.Asus{
+      width:122px;
+    height: 100px;
+    margin-left:15px;
+    margin-top: 20px;
+}
+.border-size-9{
+    width: 150px;
+    height: 150px;
+    border: solid 3px gray;
+    border-radius: 20px;
+    margin-left: 330px;
+    margin-top: -157px;
+     background-color: white;
+}
+.Nokia{
+      width:122px;
+    height: 80px;
+    margin-left:15px;
+    margin-top: 35px;
+}
+.border-size-10{
+    width: 150px;
+    height: 150px;
+    border: solid 3px gray;
+    border-radius: 20px;
+    margin-left: 552px;
+    margin-top: -157px;
+     background-color: white;
+}
+.Vivo{
+ width:122px;
+    height: 80px;
+    margin-left:18px;
+    margin-top: 35px;
+}
+.border-size-11{
+    width: 150px;
+    height: 150px;
+    border: solid 3px gray;
+    border-radius: 20px;
+    margin-left: 770px;
+    margin-top: -157px;
+     background-color: white;
+}
+.Microma{
+ width:122px;
+    height: 80px;
+    margin-left:18px;
+    margin-top: 35px;
+}
+.border-size-12{
+    width: 150px;
+    height: 150px;
+    border: solid 3px gray;
+    border-radius: 20px;
+    margin-left: 990px;
+    margin-top: -157px;
+     background-color: white;
+}
+.Oppo{
+ width:122px;
+    height: 80px;
+    margin-left:18px;
+    margin-top: 35px;
+}
+.border-size-13{
+    width: 150px;
+    height: 150px;
+    border: solid 3px gray;
+    border-radius: 20px;
+    margin-left: 1210px;
+    margin-top: -157px;
+     background-color: white;
+}
+.Lenevo{
+ width:122px;
+    height: 80px;
+    margin-left:18px;
+    margin-top: 35px;
+}
+.Info-1:hover{
+    opacity: 0.5;
+}
+.col-14{
+    margin-top: 50px;
+}
+th{
+    font-size: 50px;
+  width: 500px;     
+}
+td{
+   font-size: 20px; 
+}
+.stock{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+.click
+{
+    color: black;
+    margin-left: 170px;
+}
+.click:hover{
+    color: limegreen;
+}
+.click:active{
+    color: yellow;
+}
+.follow{
+    margin-top: 5px;
+    width: 40px;
+    height: 50px;
+}
+.col-15{
+    margin-top: -60px;
+    margin-left: 110px;
+}
+.col-ha-5{
+     animation: changecolours 3s infinite ease;
+}
+@keyframes changecolours{
+    20%{
+        color: teal;
+    }
+    40%{
+        color: navy;
+    }
+    60%{
+        color: maroon;
+    }
+    80%{
+        color: red;
+    }
+    100%{
+        color: aqua;
+    }
+}
